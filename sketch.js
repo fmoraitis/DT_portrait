@@ -357,11 +357,11 @@ let cam
 let imgCam
 let pgraphics
 function preload() {
-  img = loadImage('data/d.jpg');
+  img = loadImage('data/d3.jpg');
 }
 
 function setup() {
-  mycanvas = createCanvas(1200,1600,WEBGL);
+  mycanvas = createCanvas(800,1108,WEBGL);
   mycanvas.parent("sketch");
   
   //uncomment this for cam version
